@@ -1,0 +1,43 @@
+body {
+	background-image: url(../images/body_bg_1.jpg);
+	margin: 0;
+	color: #fff;
+}
+
+.body_overlay {
+	background-color: rgba(0, 0, 0, 0.6);
+	width: 100%;
+	height: 100vh;
+}
+
+.main {
+	max-width: 600px;
+	margin: 0 auto;
+}
+
+.question {
+  font-size: 32px;
+}
+.answer__input {
+	height: 60px;
+	font-size: 24px; 
+}
+
+.answer_btn {
+	display: block;
+	margin-top: 15px;
+}
+
+
+.history-list {
+	max-height: 450px;
+	overflow: hidden;
+}
+
+
+.history-list__item {
+	margin-top: 30px;
+}
+
+.history-list__item_right { border: 1px solid green; }
+.history-list__item_wrong { border: 1px solid red; }
