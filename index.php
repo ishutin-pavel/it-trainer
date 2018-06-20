@@ -1,101 +1,113 @@
 <?php
 require 'php/app_config.php';
 
-if ( isset($_POST['next_id']) ) { $id = $_POST['next_id']; } else { echo "<p>Не передан следующий id</p>";}
-if ( !isset($id) ) { $id=1; }
-
+//Показывать системные ошибки?
+define("SYSTEM_ERROR_SHOW", true);
 
 // if ( isset($_GET['id']) ) { $id = $_GET['id']; }
 // if ( !isset($id) ) { $id=1; }
 
+//Сколько всего строк в таблице
+// $max_resource = mysql_query("SELECT COUNT(1) FROM html");
+// $max_array = mysql_fetch_array( $max_resource );
+// $max =  $max_array[0];
 
-if ( isset($_POST['diapason']) ) { $diapason = $_POST['diapason']; }
-if ( !isset($diapason) ) { $diapason=1; }
-
-switch ($diapason) {
-    case 1:
-        if ( $id > 20 ) { $id = 1; };
-        break;
-    case 2:
-        if ( $id < 21 || $id > 40 ) { $id = 21; };
-        break;
-    case 3:
-        if ( $id < 41 || $id > 60 ) { $id = 41; };
-        break;
-    case 4:
-        if ( $id < 61 || $id > 80 ) { $id = 61; };
-        break;
-    case 5:
-        if ( $id < 81 || $id > 100 ) { $id = 81; };
-        break;
-}
-$next_id = $id + 1;
-
-//Запрос к БД для выбора вопроса по ID
-$result = mysql_query("SELECT * FROM html WHERE id='$id'");
-//Проверка выбора
-if (!$result) {
-  die("<p>Ошибка при выводе перечня таблиц:" . mysql_error() . "</p>");
-}
-
-
-
-//Преобразование ресурса в массив.
-$row = mysql_fetch_row($result);
-//если строка пустая, то:
-if ( !$row ) {
-  $question = "<p>Все упражнения выполнены. Поздравляю!</p><p>Обновите страницу</p>";
-} else {
-  $question = $row[1];
-  $right_answer = $row[2];
-}
-
+require_once 'php/list.php';
 
 ?>
-
 <!DOCTYPE html>
 <html lang="ru">
 <head>
   <meta charset="UTF-8">
   <title>Тренажер</title>
   <link rel="stylesheet" href="css/style.css">
-  
   <script>
     var id, right_answer, user_answer, startTime, endTime, time;
-
-
-    id = '<?php echo $id; ?>';
     right_answer = '<?php echo $right_answer; ?>';
     startTime = new Date();
-
   </script>
 </head>
 <body>
 <div class="body_overlay">
 
-<div class="main">
+<div class="container">
+  <div class="row">
 
-<form action="index.php" class="form" method="POST">
-  <div class="question"><?php echo $question; ?></div>
-  <input class="answer__input" type="text">
-  <input type="hidden" name="next_id" value="<?php echo $next_id; ?>">
-  <input class="answer_btn" type="submit" value="Далее">
-  <p>Все теги разделены на несколько групп по 20шт. Это сделано для того, чтобы можно было их доводить до автоматизма. Выбирите группу:</p>
-    <select name="diapason" id="diapason">
-      <option <?php if ( $diapason==1 ) { echo "selected"; } ?> value="1">1-20</option>
-      <option <?php if ( $diapason==2 ) { echo "selected"; } ?> value="2">21-40</option>
-      <option <?php if ( $diapason==3 ) { echo "selected"; } ?> value="3">41-60</option>
-      <option <?php if ( $diapason==4 ) { echo "selected"; } ?> value="4">61-80</option>
-      <option <?php if ( $diapason==5 ) { echo "selected"; } ?> value="5">81-100</option>
-    </select>
-    <p><?php echo "Вопрос номер: " . $id; ?></p>
-  
-</form>
+    <div class="col-sm-3">
+      <aside class="rules">
+        <div class="rules__title">Правила</div>
+        <div class="rules__text">
+        <p>Введите ответ и нажмите <kbd>Enter</kbd></p>
+        <p>Цель: довести до автоматизма.</p>
+        <p>Теги разделены на группы.</p>
+        </div>
+      </aside>
+    </div><!-- col -->
 
-<code class="history-list"></code>
+    <div class="col-sm-6">
+
+      <div class="main">
+
+          <form id="form" action="index.php" class="form" method="POST">
+            <div class="question"><?php echo $question; ?></div>
+            <input class="answer__input" type="text">
+            <input type="hidden" name="count" value="<?php echo $count; ?>">
+          </form>
+
+        <code class="right_answer" style="display: none;">
+          <span class="right_answer__label">Правильный ответ: </span>
+          <?php echo $right_answer_output; ?>
+        </code>
 
 
-<script src="https://yastatic.net/jquery/3.1.1/jquery.min.js"></script>
+        <?php
+        //Вывод системных ошибок
+        if( isset($system_error) && SYSTEM_ERROR_SHOW ) {
+          echo "<div class='system_error'>";
+          echo $system_error;
+          echo "</div>";
+        }
+          ?>
+
+      </div><!-- main -->
+
+    </div><!-- col -->
+
+    <div class="col-sm-3">
+      <aside class="status">
+        <h3 class="status__title">Статус</h3>
+        <p><?php echo "Вопрос номер: " . $count . "/" . $max; ?></p>
+
+        <div class="progress">
+          <progress class="progress__bar" max="<?php echo $max;?>" value="<?php echo $count; ?>"></progress>
+        </div>
+
+        <div class="diapason__wrap">
+          <span class="diapason__title">Выбирите группу:</span>
+          <select form="form" name="list" id="diapason">
+            <option <?php if ( $list=='structure' ) { echo "selected"; } ?> value="structure">Структурные</option>
+            <option <?php if ( $list=='element' ) { echo "selected"; } ?> value="element">Остальные элементы</option>
+            <option <?php if ( $list=='table' ) { echo "selected"; } ?> value="table">Таблица</option>
+            <option <?php if ( $list=='form' ) { echo "selected"; } ?> value="form">Форма</option>
+            <option <?php if ( $list=='formatting' ) { echo "selected"; } ?> value="formatting">Форматирование</option>
+          </select>
+        </div>
+        <div class="restart__wrap">
+          <a href="#" class="btn btn-primary restart">Сначала</a>
+        </div>
+        
+      </aside>
+    </div><!-- col -->
+
+  </div><!-- row -->
+
+
+</div><!-- container -->
+
+
+<script src="js/jquery.min.js"></script>
+<!-- <script src="js/bootstrap.min.js"></script> -->
+<script src="js/jquery.matchHeight.js"></script>
 <script src="js/main.js"></script>
 </div><!-- main -->
 
