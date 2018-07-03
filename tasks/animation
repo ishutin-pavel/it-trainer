@@ -1,0 +1,60 @@
+Создайте анимацию my_animation и задайте ключевые кадры from, 50%, to. Свойства не прописывать.
+@keyframes my_animation {
+  from {}
+  50% {}
+  to {}
+}
+
+
+Имя анимации
+animation-name: mymove;
+
+Продолжительность анимации
+animation-duration: 2s;
+
+Задержка анимации 2 секунды
+animation-delay: 2s;
+
+Проиграть анимацию 3 раза
+animation-iteration-count: 3;
+
+Анимация проигрывается бесконечно
+animation-iteration-count: infinite;
+
+
+
+
+
+Временная функция: анимация происходит равномерно
+animation-timing-function: linear;
+
+Временная функция: анимация начинается медленно, а затем плавно ускоряется в конце
+animation-timing-function: ease-in;
+
+Временная функция: анимация начинается быстро и плавно замедляется в конце
+animation-timing-function: ease-out;
+
+Временная функция: анимация медленно начинается и медленно заканчивается
+animation-timing-function: ease-in-out;
+
+
+
+Направление анимации: анимация проигрывается с начала и до конца
+animation-direction: normal;
+
+Направление анимации: анимация проигрывается с конца
+animation-direction: reverse;
+
+Направление анимации: анимация проигрывается с начала до конца, затем в обратном направлении
+animation-direction: alternate;
+
+Направление анимации: анимация проигрывается с конца до начала, затем в обратном направлении
+animation-direction: alternate-reverse;
+
+
+Краткая запись анимации
+animation: animation-name animation-duration animation-timing-function animation-delay animation-iteration-count animation-direction;
+
+
+Пауза анимации
+animation-play-state: paused;

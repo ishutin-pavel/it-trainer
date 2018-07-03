@@ -1,11 +1,10 @@
 jQuery(document).ready(function() { 
 
-  jQuery('.answer__input').focus();
-
   jQuery('.rules, .main, .status').matchHeight();
 
+  var allow_restart = false;
   function restart() {
-    var restart = true;
+    allow_restart = true;
     jQuery('input[name="count"]').attr({
       'value': '0'
     });
@@ -21,13 +20,20 @@ jQuery(document).ready(function() {
     restart();
   });
 
+//Прячем правильный ответ при вводе
+jQuery('.answer__input').keypress(function() {
+  jQuery('.right_answer').hide();
+});
 
 jQuery(".form").submit(function() {
-  user_answer = $('.answer__input').val();
-  if ( user_answer == right_answer || restart ) {
+  user_answer = jQuery('.answer__input').val();
+  right_answer = jQuery('input[name="right_answer"]').val();
+  console.log('Ответ пользователя: ' + user_answer);
+  console.log('Правильный ответ: ' + right_answer);
+  if ( user_answer == right_answer || allow_restart == true ) {
     return true;
   } else {
-    $('.right_answer').show();
+    jQuery('.right_answer').show();
     return false;
   }
   
