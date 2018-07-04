@@ -1,0 +1,996 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"vehi",
+				"vehicle_type"
+			],
+			[
+				"ve",
+				"vehicle_type"
+			],
+			[
+				"veh",
+				"vehicle_type"
+			],
+			[
+				"ac",
+				"accident_index"
+			],
+			[
+				"acc",
+				"accidents_2015"
+			],
+			[
+				"log",
+				"logo.svg"
+			],
+			[
+				"for",
+				"foreach\tforeach …"
+			],
+			[
+				"PRI",
+				"print_r"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"re",
+				"req1\trequire_once …"
+			],
+			[
+				"wh",
+				"why-we.php"
+			],
+			[
+				"ht",
+				"htmlspecialchars"
+			],
+			[
+				"remo",
+				"removeClass\t.removeClass()"
+			],
+			[
+				"background",
+				"background-image"
+			],
+			[
+				"get_the_post",
+				"get_the_post_thumbnail"
+			],
+			[
+				"the_th",
+				"the_post_thumbnail"
+			],
+			[
+				"wp_qu",
+				"WP_Query"
+			],
+			[
+				"add_set",
+				"add_settings_field"
+			],
+			[
+				"esc",
+				"esc_attr"
+			],
+			[
+				"prin",
+				"print_r"
+			],
+			[
+				"pri",
+				"print_r"
+			],
+			[
+				"fo",
+				"foreach\tforeach …"
+			],
+			[
+				"ke",
+				"key__img.png\tw:370 h:250"
+			],
+			[
+				"togg",
+				"toggleClass\t.toggleClass()"
+			],
+			[
+				"css",
+				"css\t.css() - single"
+			],
+			[
+				"slide",
+				"slideToggle\t.slideToggle()"
+			],
+			[
+				"po",
+				"pos-f\tposition: fixed;"
+			],
+			[
+				"se",
+				"services__bg.png\tw:389 h:287"
+			],
+			[
+				"i",
+				"btn-icon.png\tw:40 h:22"
+			],
+			[
+				"ba",
+				"background"
+			],
+			[
+				"ove",
+				"overflow-x"
+			],
+			[
+				"back",
+				"background-size"
+			],
+			[
+				"pos",
+				"pos-r\tposition: relative;"
+			],
+			[
+				"backgound-",
+				"background-image"
+			],
+			[
+				"to",
+				"toggle\t.toggle()"
+			],
+			[
+				"mar",
+				"margin-right"
+			],
+			[
+				"max-",
+				"max-width"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"backg",
+				"background-color"
+			],
+			[
+				"off",
+				"offset\t.offset()"
+			],
+			[
+				"bor",
+				"border-radius"
+			],
+			[
+				"padding-",
+				"padding-bottom"
+			],
+			[
+				"pa",
+				"placeholder\tAttr"
+			],
+			[
+				"p",
+				"placeholder\tAttr"
+			],
+			[
+				"bacgc",
+				"background-color"
+			],
+			[
+				"spa",
+				"space-between"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"con",
+				"controller"
+			],
+			[
+				"trigger",
+				"triggerElement"
+			],
+			[
+				"Scroll",
+				"ScrollMagic"
+			],
+			[
+				"margin",
+				"margin-left"
+			],
+			[
+				"marg",
+				"margin-left"
+			],
+			[
+				"mouseo",
+				"mouseover\t.mouseover()"
+			],
+			[
+				"paddin",
+				"padding-bottom"
+			],
+			[
+				"font",
+				"font-family"
+			],
+			[
+				"c",
+				"citroen.png\tw:50 h:44"
+			],
+			[
+				"ch",
+				"chrysler.png\tw:75 h:23"
+			],
+			[
+				"min-",
+				"min-height"
+			],
+			[
+				"list",
+				"list-style"
+			],
+			[
+				"z",
+				"z-index"
+			],
+			[
+				"jq",
+				"jQuery.isEmptyObject\tjQuery.isEmptyObject"
+			],
+			[
+				"s",
+				"style.css"
+			],
+			[
+				"pad",
+				"padding-top"
+			],
+			[
+				"b",
+				"bosch.png\tw:110 h:25"
+			],
+			[
+				"fi",
+				"fixing_anker.jpg\tw:257 h:257"
+			],
+			[
+				"j",
+				"dop__djin.jpg\tw:350 h:350"
+			],
+			[
+				"iz",
+				"iz-vinograda.jpg\tw:453 h:232"
+			],
+			[
+				"de",
+				"default"
+			],
+			[
+				"t",
+				"typeEngineering.png\tw:603 h:439"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"mess",
+				"messenger_imo.png\tw:300 h:300"
+			],
+			[
+				"logo",
+				"logo_white.png\tw:226 h:150"
+			],
+			[
+				"op",
+				"opcii__usilenie_koles.jpg\tw:314 h:235"
+			],
+			[
+				"border",
+				"border-top"
+			],
+			[
+				"aling",
+				"align-items"
+			],
+			[
+				"di",
+				"display"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 309.0,
+		"last_filter": "insta",
+		"selected_items":
+		[
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"About"
+			],
+			[
+				"pa",
+				"Package Control: Install Package"
+			],
+			[
+				"rem",
+				"Package Control: Remove Package"
+			],
+			[
+				"tasks ",
+				"Tasks: New document"
+			],
+			[
+				"n",
+				"Tasks: New document"
+			],
+			[
+				"new",
+				"Tasks: New"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"new ",
+				"Tasks: New document"
+			],
+			[
+				"au",
+				"Autoprefix CSS"
+			],
+			[
+				"aut",
+				"Autoprefix CSS"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"a",
+				"Autoprefix CSS"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"menu",
+				"View: Toggle Menu"
+			],
+			[
+				"pac",
+				"Install Package Control"
+			]
+		],
+		"width": 382.0
+	},
+	"console":
+	{
+		"height": 174.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/OpenServer/domains/tren.local"
+	],
+	"file_history":
+	[
+		"/C/OpenServer/domains/apple-well.ru.local/wp-content/themes/apple/functions.php",
+		"/E/Books/SQL/style.scss",
+		"/E/Books/SQL/style.css",
+		"/C/OpenServer/domains/tren.local/sass/_main.scss",
+		"/C/OpenServer/domains/tren.local/README.md",
+		"/C/OpenServer/domains/tren.local/html.php",
+		"/C/OpenServer/domains/tren.local/task-list.php",
+		"/E/Облако Mail.ru/Linda.com/database-clinic-mysql/мои-запросы.sql",
+		"/E/Облако Mail.ru/Linda.com/database-clinic-mysql/импорт данных.txt",
+		"/C/OpenServer/domains/tren.local/tasks.php",
+		"/C/OpenServer/domains/tren.local/tasks/tasts.txt",
+		"/C/OpenServer/domains/tren.local/index.php",
+		"/C/OpenServer/domains/tren.local/do.php",
+		"/C/OpenServer/domains/tren.local/php/category-2.php",
+		"/C/OpenServer/domains/tren.local/images/logo.svg",
+		"/C/Users/ipavel/Desktop/Испания/Визы/Где я работаю.txt",
+		"/C/OpenServer/domains/podbor-not.ru.local/admin-panel-Sx6/update_post.php",
+		"/C/OpenServer/domains/tren.local/php/theme.php",
+		"/C/OpenServer/domains/tren.local/php/app_config.php",
+		"/C/OpenServer/domains/php-recipes.local/chapter-bd.php",
+		"/C/OpenServer/domains/kupi-by-tehniku.ru.local/wp-content/themes/wr-nitro-child/footer.php",
+		"/C/OpenServer/WP - Themes/Инструкции Nitro/Страница оформления/оформление.css",
+		"/C/OpenServer/domains/kupi-by-tehniku.ru.local/wp-content/themes/wr-nitro-child/style.css",
+		"/C/OpenServer/WP - Themes/new project with wr-nitro-child/wr-nitro-child/style.css",
+		"/C/OpenServer/domains/tren.local/php/category.php",
+		"/E/YandexDisk/Инструкции/01 - WordPress/Nitro/Header/function.php",
+		"/C/OpenServer/WP - Themes/new project with wr-nitro-child/gulpfile.js",
+		"/E/YandexDisk/Инструкции/01 - WordPress/Nitro/Header/header-js.js",
+		"/E/YandexDisk/Инструкции/01 - WordPress/Nitro/Header/header-css.css",
+		"/E/YandexDisk/Инструкции/01 - WordPress/Yoast SEO/Вы не получаете обновления или поддержку.txt",
+		"/E/YandexDisk/Инструкции/01 - WordPress/Nitro/update.php",
+		"/E/YandexDisk/Инструкции/01 - WordPress/Nitro/update/update.php",
+		"/C/OpenServer/domains/tren.local/php/diapason.php",
+		"/C/OpenServer/domains/kupi-by-tehniku.ru.local/wp-content/themes/gulp-dev/Gulpfile.js",
+		"/C/OpenServer/domains/kupi-by-tehniku.ru.local/wp-content/themes/by/footer.php",
+		"/C/Users/ipavel/AppData/Local/Temp/Rar$DIa0.869/owl.carousel.min.js",
+		"/C/Users/ipavel/AppData/Local/Temp/Rar$DIa0.840/functions.php",
+		"/C/Users/ipavel/AppData/Local/Temp/Rar$DIa0.178/owl.carousel.min.css",
+		"/C/OpenServer/domains/kupi-by-tehniku.ru.local/wp-content/themes/by/woocommerce/single-product.php",
+		"/C/OpenServer/domains/twoya-kuhnya.ru.local/wp-content/themes/mytheme/home.php",
+		"/C/OpenServer/domains/tren.local/js/main.js",
+		"/C/OpenServer/domains/twoya-kuhnya.ru.local/wp-content/themes/mytheme/js/mytheme.js",
+		"/C/OpenServer/domains/twoya-kuhnya.ru.local/wp-content/themes/mytheme/single.php",
+		"/C/OpenServer/domains/wp-test.local/wp-content/themes/my/inc/woocommerce.php",
+		"/C/OpenServer/domains/wp-test.local/wp-config.php",
+		"/C/OpenServer/domains/twoya-kuhnya.ru.local/wp-content/themes/mytheme/header.php",
+		"/C/OpenServer/domains/apple-well.ru.local/wp-content/themes/apple/header.php",
+		"/C/OpenServer/domains/twoya-kuhnya.ru.local/wp-content/themes/mytheme/functions.php",
+		"/C/OpenServer/domains/twoya-kuhnya.ru.local/wp-content/themes/mytheme/css/styles.css",
+		"/E/YandexDisk/Инструкции/01 - WordPress/Back Door.txt",
+		"/C/OpenServer/domains/twoya-kuhnya.ru.local/wp-config.php",
+		"/E/YandexDisk/Инструкции/01 - WordPress/Перенос сайта/SQL - запрос.txt",
+		"/C/OpenServer/domains/door.ishutin.com.local/js/common.js",
+		"/C/OpenServer/domains/door.ishutin.com.local/index.php",
+		"/C/OpenServer/domains/new-project.local/ipavel/form/Моя обычная форма/form.js",
+		"/C/OpenServer/domains/moi-shkaf.ru.local/wp-content/themes/wr-nitro/assets/woorockets/css/main.css",
+		"/C/OpenServer/domains/moi-shkaf.ru.local/wp-content/themes/wr-nitro/woocommerce/woorockets/single-product/style-2.php",
+		"/C/OpenServer/domains/moi-shkaf.ru.local/wp-content/themes/wr-nitro/woocommerce/woorockets/single-product/single-product-form.php",
+		"/C/OpenServer/domains/moi-shkaf.ru.local/wp-content/themes/wr-nitro/woocommerce/woorockets/single-product/product-image/style-2.php",
+		"/C/OpenServer/domains/moi-shkaf.ru.local/wp-content/themes/wr-nitro/woocommerce/woorockets/single-product/style-mobile.php",
+		"/E/YandexDisk/Инструкции/SSH/Подключение по SSH без пароля.txt",
+		"/C/OpenServer/domains/apple-well.ru.local/wp-content/themes/apple/sass/_main.scss",
+		"/C/OpenServer/domains/apple-well.ru.local/wp-content/themes/apple/footer.php",
+		"/C/OpenServer/domains/moi-shkaf.ru.local/wp-content/themes/wr-nitro/assets/woorockets/js/functions.js",
+		"/C/OpenServer/domains/tigrard-consulting.ru.local/mugu/inc/extra.php",
+		"/E/YandexDisk/Инструкции/01 - WordPress/Шаблоны произвольных страниц.txt",
+		"/C/OpenServer/domains/tigrard-consulting.ru.local/mugu/header/two.php",
+		"/C/OpenServer/domains/moi-shkaf.ru.local/wp-content/themes/wr-nitro/assets/3rd-party/owl-carousel/owl.carousel.min.js",
+		"/C/OpenServer/domains/tigrard-consulting.ru.local/mugu/functions.php",
+		"/C/OpenServer/domains/apple-well.ru.local/wp-content/themes/apple/inc/order.php",
+		"/C/Users/ipavel/AppData/Local/Temp/_tc/wr-nitro/functions.php",
+		"/C/OpenServer/domains/apple-well.ru.local/wp-content/themes/apple/js/owl.carousel.js",
+		"/C/OpenServer/domains/moi-shkaf.ru.local/wp-content/themes/wr-nitro/inc/single-product-form.php",
+		"/C/OpenServer/userdata/temp/email/2018-06-28_23-04-50-0720.txt",
+		"/C/OpenServer/domains/apple-well.ru.local/wp-content/themes/apple/category-2.php",
+		"/C/OpenServer/domains/apple-well.ru.local/wp-content/themes/apple/single.php",
+		"/C/OpenServer/domains/apple-well.ru.local/wp-content/themes/apple/template-parts/content.php",
+		"/C/OpenServer/domains/moi-shkaf.ru.local/wp-content/themes/wr-nitro/mail.php",
+		"/C/OpenServer/userdata/temp/email/2018-06-28_22-46-06-7340.txt",
+		"/C/OpenServer/userdata/temp/email/2018-06-28_22-50-42-2260.txt",
+		"/C/OpenServer/userdata/temp/email/2018-06-28_22-51-23-1350.txt",
+		"/C/OpenServer/userdata/temp/email/2018-06-28_22-53-06-4770.txt",
+		"/C/OpenServer/domains/moi-shkaf.ru.local/wp-content/themes/wr-nitro/assets/woorockets/css/sfp__form.css",
+		"/C/OpenServer/domains/new-project.local/ipavel/form/Моя обычная форма/form.html",
+		"/C/OpenServer/userdata/temp/email/2018-06-28_22-41-44-0760.txt",
+		"/C/OpenServer/userdata/temp/email/2018-06-28_22-39-50-9320.txt",
+		"/C/OpenServer/domains/new-project.local/ipavel/form/Моя обычная форма/mail-for-wp.php",
+		"/C/OpenServer/domains/moi-shkaf.ru.local/wp-content/themes/wr-nitro/style.css",
+		"/E/YandexDisk/Инструкции/01 - WordPress/Вывод шорткодов.txt",
+		"/C/OpenServer/domains/moi-shkaf.ru.local/wp-content/themes/wr-nitro/woocommerce/woorockets/single-product/style-1.php",
+		"/C/OpenServer/domains/moi-shkaf.ru.local/wp-config.php",
+		"/C/OpenServer/domains/zavodkranov.local/wp-content/themes/CustomTheme/header.php",
+		"/C/OpenServer/domains/zavodkranov.local/wp-content/themes/CustomTheme/template-parts/parent-category.php",
+		"/C/OpenServer/domains/zavodkranov.local/wp-content/themes/CustomTheme/category-blog.php",
+		"/C/OpenServer/domains/zavodkranov.local/wp-content/themes/CustomTheme/template-parts/content-blog.php",
+		"/C/OpenServer/domains/zavodkranov.local/wp-content/themes/CustomTheme/single-blog.php",
+		"/C/OpenServer/domains/zavodkranov.local/wp-content/themes/CustomTheme/single.php",
+		"/C/OpenServer/domains/zavodkranov.local/wp-content/themes/CustomTheme/front-page.php",
+		"/C/OpenServer/domains/zavodkranov.local/wp-content/themes/CustomTheme/sass/_page-styles.scss",
+		"/C/OpenServer/domains/new-project.local/ipavel/table/price-table.scss",
+		"/C/OpenServer/domains/zavodkranov.local/wp-content/themes/CustomTheme/js/majs.js",
+		"/C/OpenServer/domains/zavodkranov.local/wp-config.php",
+		"/C/OpenServer/domains/zavodkranov.local/.htaccess",
+		"/C/OpenServer/domains/apple-well.ru.local/wp-content/themes/apple/sass/_owl.carousel.scss",
+		"/C/OpenServer/domains/apple-well.ru.local/wp-content/themes/apple/js/main.js",
+		"/C/OpenServer/userdata/temp/email/2018-06-27_18-10-53-0530.txt",
+		"/C/OpenServer/domains/new-project.local/ipavel/owl.carousel/_owl.carousel.scss",
+		"/C/OpenServer/domains/apple-well.ru.local/wp-content/themes/gulp-dev/Gulpfile.js",
+		"/C/OpenServer/domains/apple-well.ru.local/wp-content/themes/apple/sass/_owl.theme.default.scss",
+		"/C/OpenServer/domains/apple-well.ru.local/wp-content/themes/apple/OwlCarousel2-2.3.4/dist/owl.carousel.js",
+		"/C/OpenServer/domains/apple-well.ru.local/wp-content/themes/apple/sass/style.scss",
+		"/C/OpenServer/domains/apple-well.ru.local/documentation/price-device",
+		"/C/OpenServer/domains/new-project.local/ipavel/owl.carousel/owl.carousel.js",
+		"/C/OpenServer/domains/new-project.local/ipavel/owl.carousel/owl.carousel.html",
+		"/C/OpenServer/domains/alco-otziv.ru.local/wp-content/themes/alco/header.php",
+		"/C/OpenServer/domains/zavodkranov.local/wp-content/themes/CustomTheme/single-tal-bolgariya.php",
+		"/C/OpenServer/domains/zavodkranov.local/wp-content/themes/CustomTheme/single-tal-seo-text.php",
+		"/C/OpenServer/domains/zavodkranov.local/wp-content/themes/CustomTheme/single-upravlenie.php",
+		"/C/OpenServer/domains/zavodkranov.local/wp-content/themes/CustomTheme/single-zapchasti.php",
+		"/C/OpenServer/domains/zavodkranov.local/wp-content/themes/CustomTheme/template-parts/child-category.php",
+		"/C/OpenServer/domains/zavodkranov.local/wp-content/themes/CustomTheme/template-parts/parent-category-13.php",
+		"/C/OpenServer/domains/zavodkranov.local/wp-content/themes/CustomTheme/single-default.php",
+		"/C/OpenServer/domains/zavodkranov.local/wp-content/themes/CustomTheme/zapros.php",
+		"/C/OpenServer/domains/zavodkranov.local/wp-content/themes/CustomTheme/page.php",
+		"/C/OpenServer/domains/zavodkranov.local/wp-content/themes/CustomTheme/request1.php",
+		"/C/OpenServer/domains/zavodkranov.local/wp-content/themes/CustomTheme/single-news.php",
+		"/C/OpenServer/domains/zavodkranov.local/wp-content/themes/CustomTheme/category-49.php",
+		"/C/OpenServer/domains/zavodkranov.local/wp-content/themes/CustomTheme/category-news.php"
+	],
+	"find":
+	{
+		"height": 26.0
+	},
+	"find_in_files":
+	{
+		"height": 170.0,
+		"where_history":
+		[
+			"C:\\OpenServer\\domains\\moi-shkaf.ru.local\\wp-content\\themes\\wr-nitro",
+			"C:\\OpenServer\\domains\\zavodkranov.local\\wp-content\\themes\\CustomTheme",
+			"C:\\OpenServer\\domains\\opencart-644.local",
+			"<project>",
+			"C:\\OpenServer\\domains\\zavodkranov.local\\wp-content\\themes\\CustomTheme\\sass",
+			"C:\\OpenServer\\domains\\zavodkranov.local\\wp-content\\themes\\CustomTheme",
+			"C:\\OpenServer\\domains\\grill-smart.ru.local\\documentations\\theme644",
+			"C:\\OpenServer\\domains\\vorota-abc.rf\\css",
+			"C:\\OpenServer\\domains\\kompanion.su.local\\megawp\\",
+			"C:\\OpenServer\\domains\\kompanion.su.local\\megawp\\inc",
+			"C:\\OpenServer\\domains\\kompanion.su.local\\megawp-child-theme\\assets\\css\\layout_1",
+			"C:\\OpenServer\\domains\\0036.ru.local\\wp-content\\plugins\\buy-one-click-woocommerce",
+			"C:\\OpenServer\\domains\\0036.ru.local\\wp-content\\plugins",
+			"C:\\OpenServer\\domains\\0036.ru.local\\wp-content\\plugins\\buy-one-click-woocommerce",
+			"<project>",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"\"",
+			"<a href=\"http://apple-well.ru.local",
+			"<img class=\"problem__img\" src=\"http://apple-well.ru.local",
+			"\\n\\n",
+			"           ",
+			"            ",
+			"\" title=\"[\\w \">]*",
+			"</span>",
+			"<img [>. \\w=\":/-]*",
+			"            </span>",
+			"            <span class=\"problem__title\">",
+			"          <a href=\"https://apple-well.ru",
+			"                <div class=\"col-sm-4 problem__item\">",
+			"<div class=\"row\">",
+			"          </a>",
+			"        </div>",
+			" WHERE ",
+			"\\<",
+			"\\>",
+			"\\",
+			"boxes",
+			"theme",
+			"css-filter",
+			"category_id",
+			"themes__wrap",
+			"exercises",
+			"Функция",
+			"rgb(255, 255, 255)",
+			"fill: rgb(255, 255, 255);",
+			"fill: rgb(255, 255, 255)",
+			"ffffff",
+			"exercises",
+			"php",
+			"xercises",
+			"html",
+			"english",
+			" katalog-col",
+			" +$",
+			">[\\t ]+$",
+			"столбец",
+			"}\\n",
+			"{ *$",
+			"[{ ]*$",
+			">[ ]+$",
+			"https://misha.blog",
+			"http://test.truemisha.ru",
+			"between",
+			"around",
+			"between",
+			"mycontainer",
+			"[ +0-9]{10}",
+			"[ +0-9]{9}",
+			"[0-9]{9}",
+			"[0-9]{10}",
+			"my_arrow__wrap",
+			"cm",
+			"form",
+			"woocommerce-product-gallery--with-nav",
+			"p-single-info",
+			"aic",
+			"cm-6",
+			"woocommerce-product",
+			"woocommerce-product-gallery",
+			"woocommerce-product-gallery--with-nav pr",
+			"[/vc_column_text]",
+			"[vc_column_text]",
+			"=\"material__name\"",
+			"[/vc_column_text]",
+			"[vc_column_text]",
+			"p>",
+			"375=\"1\" 600=\"2\" 768=\"3\" 992=\"4\"",
+			"b1_order",
+			"]\\n",
+			"284",
+			"283",
+			"282",
+			"281",
+			"280",
+			"279",
+			"278",
+			"277",
+			"275",
+			"274",
+			"273",
+			"272",
+			"271",
+			"270",
+			"269",
+			"268",
+			"266",
+			"265",
+			"264",
+			"263",
+			"262",
+			"261",
+			"260",
+			"259",
+			"257",
+			"256",
+			"255",
+			"254",
+			"253",
+			"252",
+			"251",
+			"250",
+			"248",
+			"247",
+			"246",
+			"245",
+			"244",
+			"243",
+			"242",
+			"241",
+			"239",
+			"238",
+			"237",
+			"236",
+			"235",
+			"234",
+			"233",
+			"232",
+			"230",
+			"229",
+			"228",
+			"227",
+			"226",
+			"225",
+			"224"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"\\n",
+			"",
+			"/",
+			"",
+			"rgb(0, 0, 0)",
+			"fill: rgb(0, 0, 0);",
+			"",
+			">",
+			"}\\n\\n",
+			"{",
+			">",
+			"http://twoya-kuhnya.ru.local",
+			"http://twoya-kuhnya.ru/",
+			"material__name-wrap",
+			"",
+			"</p>[/vc_column_text]",
+			"[vc_column_text]<p class=\"material__name\">",
+			"</p>[/vc_column_text]",
+			"[vc_column_text]<p class=\"material__name\">",
+			"375=\"4\" 600=\"4\" 768=\"6\" 992=\"6\"",
+			"]",
+			"vc_column_inner width=\"10/12\"",
+			"vc_column_inner width=\"2/12\"",
+			"materials__item",
+			"",
+			"\\n",
+			"",
+			"class=\"my__\\1\"",
+			"",
+			"iPad mini",
+			"iPad mini 2",
+			"iPad mini 3",
+			"iPad mini 4",
+			"iPad 2",
+			"iPad 3",
+			"iPad 4",
+			"iPad Air",
+			"iPad Air 2",
+			"iPhone 4",
+			"iPhone 4s",
+			"iPhone 5",
+			"iPhone 5c",
+			"iPhone 5s",
+			"iPhone SE",
+			"iPhone 6",
+			"iPhone 6 Plus",
+			"iPhone 6s",
+			"iPhone 6s Plus",
+			"iPhone 7",
+			"",
+			"90",
+			"2400",
+			"<div class=\"price__rur\">500 ₽</div>",
+			"30 мин",
+			"от 4 часов",
+			"",
+			"3000",
+			"4500",
+			"60 мин",
+			"<div class=\"price__rur\">500 ₽</div>",
+			"30 мин",
+			"от 4 часов",
+			"",
+			"60 мин",
+			"от 60 мин",
+			"",
+			"<div class=\"price__rur\">1500 ₽</div>",
+			"от 60 мин",
+			"",
+			"задней крышки",
+			"90 мин",
+			"<span class=\"problem__title\">",
+			"  <div class=\"col-sm-4 problem__item\">",
+			"</span>",
+			"href=\"#\"",
+			"  <div class=\"col-sm-4 problem__item\">",
+			"</span>",
+			"src=\"#",
+			"",
+			"col-sm-6 col-md-3",
+			"",
+			"col-sm-3",
+			"  ",
+			".",
+			"\\n}",
+			"\\n [",
+			",",
+			"",
+			"C:/",
+			"C:",
+			"/c/OpenServer/domains/hlebmarket.ru",
+			"/c/OpenServer/domains/kofesmart.ru",
+			" ",
+			"C:/OpenServer",
+			"C:/OpenServer/",
+			"/c/OpenServer/domains/domgiro.ru",
+			"fonts/",
+			"\"",
+			"\\n",
+			"/n",
+			"/",
+			"\"t2",
+			"007bff",
+			".breadcrumb",
+			"<a href=\"#\"",
+			"",
+			"  ",
+			"",
+			"th",
+			"",
+			"title=\"Автосервис Mersedes и BMW\"",
+			"$1 рублей",
+			"<span.[^<]* Рублей",
+			"",
+			"price__list",
+			"",
+			"fonts",
+			"images/",
+			"width: 100%;",
+			"",
+			" ",
+			"",
+			"jQuery",
+			"ff0000",
+			"'",
+			"C:/OpenServer/domains",
+			"max_items=\"3\"",
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": false,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 36.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 502.0
+	},
+	"pinned_build_system": "",
+	"project": "it-trainer.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"he",
+				"header.php"
+			],
+			[
+				"hea",
+				"header.php"
+			],
+			[
+				"fu",
+				"functions.php"
+			],
+			[
+				"foot",
+				"footer.php"
+			],
+			[
+				"fun",
+				"functions.php"
+			],
+			[
+				"foo",
+				"footer.php"
+			],
+			[
+				"pag",
+				"page.php"
+			],
+			[
+				"j",
+				"js\\common.js"
+			],
+			[
+				"catalog/view/theme/theme644/js/com",
+				"catalog\\view\\theme\\theme644\\js\\common.js"
+			],
+			[
+				".js",
+				"js\\common.js"
+			],
+			[
+				"main",
+				"sass\\_main.scss"
+			],
+			[
+				"id",
+				"index.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"C:\\OpenServer\\domains\\metal-msk.local\\Приём-металла-рф.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 346.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

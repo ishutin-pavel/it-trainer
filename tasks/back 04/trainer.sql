@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Хост: 127.0.0.1:3306
--- Время создания: Июл 03 2018 г., 23:30
+-- Время создания: Июл 04 2018 г., 10:21
 -- Версия сервера: 5.6.34
 -- Версия PHP: 5.6.29
 
@@ -295,14 +295,15 @@ INSERT INTO `exercises` (`id`, `question`, `answer`, `category_id`, `theme_id`) 
 (220, 'Выбрать столбец prod_name из таблицы Products и отсортировать по prod_name.', 'SELECT prod_name FROM Products ORDER BY prod_name;', '19', '4'),
 (221, 'Выбрать столбцы prod_id, prod_price, prod_name из таблицы Products. Отсортировать по prod_price затем по prod_name.', 'SELECT prod_id, prod_price, prod_name FROM Products ORDER BY prod_price, prod_name;', '19', '4'),
 (222, 'Выбрать столбцы prod_id, prod_price, prod_name из таблицы Products. Отсортировать по prod_price в убывающем порядке (сначала дорогие)', 'SELECT prod_id, prod_price, prod_name FROM Products ORDER BY prod_price DESC;', '19', '4'),
-(223, 'устаревшие функции', 'deprecated functions', '20', '5'),
+(223, 'устаревшая функция', 'deprecated function', '20', '5'),
 (224, 'Поместить строки у верхнего края контейнера.', 'align-content: flex-start;', '15', '2'),
 (225, 'Поместить строки у нижнего края контейнера.', 'align-content: flex-end;', '15', '2'),
 (226, 'Выравнять центры всех строк по вертикальному центру контейнера.', 'align-content: center;', '15', '2'),
 (227, 'Равномерно распределить дополнительное пространство по вертикали между строками, помещая верхнюю строку у верхнего края контейнера, а нижнюю у нижнего.', 'align-content: space-between;', '15', '2'),
 (228, 'Равномерно распределить оставшееся пространство между всеми строками, добавляя его также и по верхнему и нижнему краям крайних строк.', 'align-content: space-around;', '15', '2'),
 (229, 'Растянуть каждый элемент в строке, чтобы он соответствовал высоте других элементов в строке. По умолчанию.', 'align-content: stretch;', '15', '2'),
-(230, 'Переименовать таблицу html в exercises', 'RENAME TABLE html TO exercises;', '19', '4');
+(230, 'Переименовать таблицу html в exercises', 'RENAME TABLE html TO exercises;', '19', '4'),
+(231, 'транспортное стредство', 'vehicle', '20', '5');
 
 -- --------------------------------------------------------
 
@@ -362,7 +363,7 @@ ALTER TABLE `category`
 -- AUTO_INCREMENT для таблицы `exercises`
 --
 ALTER TABLE `exercises`
-  MODIFY `id` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=231;
+  MODIFY `id` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=232;
 --
 -- AUTO_INCREMENT для таблицы `themes`
 --
